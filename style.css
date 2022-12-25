@@ -1,0 +1,47 @@
+body {
+  font-size: 15pt;
+}
+
+.cont {
+  border: 1px solid grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 500px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.t {
+  width: 75%;
+}
+
+.mt {
+  border: 1px solid grey;
+  height: 81px;
+  width: 75%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.b {
+  margin-top:15%;
+  display: flex;
+  border: 1px solid grey;
+  width:75%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+button {
+  flex: 50%;
+  background: transparent;
+  outline: none;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
