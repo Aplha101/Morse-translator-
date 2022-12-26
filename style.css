@@ -7,6 +7,7 @@ body {
   height: 100%;
 }
 .head{
+  border-bottom: 1px solid grey;
   font-family: 'Andika', sans-serif;
 }
 .cont {
