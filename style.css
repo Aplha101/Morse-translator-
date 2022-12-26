@@ -1,13 +1,23 @@
 body {
   font-size: 15pt;
+  background-image: linear-gradient(to right top, #d16ba5, #d47bb6, #d78bc5, #da9bd4, #ddaae1, #d9b5ea, #d6bff2, #d4c9f8, #ccd0fa, #c8d7f9, #c8dcf6, #cce1f2);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
 }
-
+.head{
+  font-family: 'Andika', sans-serif;
+}
 .cont {
-  border: 1px solid grey;
+ 
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(6.1px);
+  -webkit-backdrop-filter: blur(6.1px);
   width: 75%;
   height: 500px;
   border-radius: 30px;
@@ -17,12 +27,16 @@ body {
 .t {
   width: 75%;
 }
-
+textarea{
+  background: transparent;
+  outline:none;
+}
 .mt {
-  border: 1px solid grey;
   height: 81px;
   width: 75%;
   position: relative;
+  border:1px solid grey;
+  font-weight: 250;
   left: 50%;
   transform: translate(-50%);
 }
@@ -38,10 +52,10 @@ body {
 }
 
 button {
+  border:none;
   flex: 50%;
   background: transparent;
   outline: none;
-  border: 1px solid black;
   height: 50px;
   width: 50px;
 }
